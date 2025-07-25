@@ -1,0 +1,53 @@
+.navContainer {
+    background: #f6f6eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 1.4rem;
+    color: #381fd1;
+    font-weight: 700;
+}
+
+
+.nav {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+
+.logo svg {
+    background-color: #381fd1;
+    color: white;
+    border-radius: 40px;
+    padding: .4rem;
+}
+
+.special {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.specialButton {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.specialButton button {
+    background-color: #381fd1;
+    padding-top: .1rem;
+    border-radius: 4px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: .1rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+
+}

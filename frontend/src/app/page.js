@@ -1,9 +1,14 @@
 import Image from "next/image";
+import Main from "./Components/Main/Main";
+import './globals.css'
+import { Sidebar } from "./Components/Sidebar/Sidebar";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <h1>figure it out</h1>
+    <div className="LayoutPage">
+
+      <Sidebar className="Osidebar" />
+      <Main className="OMainBody" />
     </div>
   );
 }

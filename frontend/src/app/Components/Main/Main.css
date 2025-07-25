@@ -1,0 +1,21 @@
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.upperHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBody {
+    display: flex;
+}
+
+.cardSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+    gap: 80px;
+}

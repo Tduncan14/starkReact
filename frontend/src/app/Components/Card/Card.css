@@ -1,0 +1,12 @@
+.cardDesign {
+    border: 2px solid gray;
+    border-radius: 9px;
+    padding: 1rem;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+}
