@@ -19,3 +19,25 @@
     margin-top: 3rem;
     gap: 80px;
 }
+
+
+.JumboCardSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.5rem;
+
+}
+
+.JumboCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+.JumboTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+
+}

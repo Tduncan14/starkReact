@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import './Main.css'
 import Card from '../Card/Card'
+import CardJumbo from '../CardJumbo/CardJumbo'
 
 
 
@@ -47,6 +48,37 @@ const Main = () => {
                     <Card title={'RESOURCES'} text={`Language, Please: Style Guide & Resources for...`} />
                     <Card title={`BLOGS & ARTICLES`} text={`4 steps to more inclusive,precise, language`} />
                 </div>
+
+            </div>
+
+
+            <div className="JumboCardSection">
+
+                <div className="JumboTitle">
+
+                    <div className="">
+                        <h1>Featured Collections</h1>
+                        <h3> Handpicked and curated collections around accessibility</h3>
+
+                    </div>
+
+
+
+                    <Link href="/">View All</Link>
+
+
+
+
+
+
+                </div>
+
+                <div className="JumboCards">
+                    <CardJumbo text={'Disability Employment'} style={'green'} />
+                    <CardJumbo text={'Making Accessible Color Combos'} style={'blue'} />
+                    <CardJumbo text={'Tips and Tricks for Inclusive Social Media'} style={'red'} />
+                </div>
+
 
             </div>
         </div>
